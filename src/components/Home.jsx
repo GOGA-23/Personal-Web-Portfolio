@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Home = () => {
   const notify = () =>
-    toast.success("🦄Downloaded Successfully...👏", {
+    toast.success("🦄Download My Resume with GoogleDocs...👏", {
       position: "top-right",
       autoClose: 2000,
       theme: "colored",
@@ -28,9 +28,12 @@ const Home = () => {
           </p>
           <a
             className="btn btn-primary bt-lg p-2 fs-5 me-5 mb-3"
-            href="../assets/images/node.png"
+            href={
+              "https://drive.google.com/file/d/1SMA283n056GTtSXxbK-3hM88smNsCV7f/view"
+            }
             role="button"
-            download
+            rel="noreferrer"
+            target="_blank"
             onClick={notify}
           >
             Download CV
