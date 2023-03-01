@@ -19,7 +19,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: TodoList,
-      liveDemo: "https://goga-23.github.io/TODO-List",
+      liveDemo: "https://goga-23.github.io/TODO-List-",
       sourceCode: "https://github.com/GOGA-23/TODO-List-",
     },
     {
