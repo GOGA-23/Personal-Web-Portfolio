@@ -6,6 +6,7 @@ import BlogApp from "../assets/images/Blog-App.png";
 import MovieApp from "../assets/images/Rtk-Movie- App.png";
 import NotesApp from "../assets/images/Notes-App.png";
 import NewsWebsite from "../assets/images/News -Website.png";
+import whatsAppClone from "../assets/images/WhatsAppClone.png";
 import socialApp from "../assets/images/Social-app.png";
 
 const Portfolio = () => {
@@ -60,6 +61,12 @@ const Portfolio = () => {
     },
     {
       id: 9,
+      src: whatsAppClone,
+      liveDemo: "https://whats-app-clone-pz3r.onrender.com",
+      sourceCode: "https://github.com/GOGA-23/Whats-app-clone",
+    },
+    {
+      id: 10,
       src: socialApp,
       liveDemo: "https://mern-social-app-v5vd.onrender.com",
       sourceCode: "https://github.com/GOGA-23/Social-App",
