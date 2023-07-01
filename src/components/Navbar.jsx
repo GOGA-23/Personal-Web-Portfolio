@@ -33,12 +33,12 @@ const Navbar = () => {
           My Portfolio
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler bg-primary"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarMenu"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon text-light">=</span>
         </button>
         <div className="collapse navbar-collapse" id="navbarMenu">
           <ul className="navbar-nav ms-auto justify-content-center align-items-center mx-5">
