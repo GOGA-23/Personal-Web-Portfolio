@@ -62,8 +62,8 @@ const Portfolio = () => {
     {
       id: 9,
       src: whatsAppClone,
-      liveDemo: "https://whats-app-clone-pz3r.onrender.com",
-      sourceCode: "https://github.com/GOGA-23/Whats-app-clone",
+      liveDemo: "https://chat-app-82d23.web.app",
+      sourceCode: "https://github.com/GOGA-23/RealTime-chat-app",
     },
     {
       id: 10,
