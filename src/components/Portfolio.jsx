@@ -8,6 +8,7 @@ import NotesApp from "../assets/images/Notes-App.png";
 import NewsWebsite from "../assets/images/News -Website.png";
 import whatsAppClone from "../assets/images/WhatsAppClone.png";
 import socialApp from "../assets/images/Social-app.png";
+import watABurger from "../assets/images/watABurger.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -70,6 +71,12 @@ const Portfolio = () => {
       src: socialApp,
       liveDemo: "https://mern-social-app-v5vd.onrender.com",
       sourceCode: "https://github.com/GOGA-23/Social-App",
+    },
+    {
+      id: 11,
+      src: watABurger,
+      liveDemo: "https://wat-a-burger.onrender.com",
+      sourceCode: "https://github.com/GOGA-23/WAT-A-BURGER-Website-Clone.git",
     },
   ];
   return (

@@ -6,6 +6,7 @@ import Node from "../assets/images/node.png";
 import Express from "../assets/images/express-js-icon.png";
 import mongodb from "../assets/images/mongodb.png";
 import Github from "../assets/images/github.png";
+import tailwindcss from "../assets/images/tailwindcss.png";
 
 const Experience = () => {
   const skills = [
@@ -55,6 +56,12 @@ const Experience = () => {
       id: 8,
       title: "Github",
       src: Github,
+      styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
+    },
+    {
+      id: 9,
+      title: "Tailwind CSS",
+      src: tailwindcss,
       styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
     },
   ];
