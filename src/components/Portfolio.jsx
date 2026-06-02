@@ -1,79 +1,51 @@
 import MusicApp from "../assets/images/Music-App.png";
-import TodoList from "../assets/images/ToDo-List.png";
-import WeatherApp from "../assets/images/Weather-App.png";
-import Calculator from "../assets/images/calculator.png";
-import BlogApp from "../assets/images/Blog-App.png";
-import MovieApp from "../assets/images/Rtk-Movie- App.png";
 import NotesApp from "../assets/images/Notes-App.png";
-import NewsWebsite from "../assets/images/News -Website.png";
 import whatsAppClone from "../assets/images/WhatsAppClone.png";
-import socialApp from "../assets/images/Social-app.png";
 import watABurger from "../assets/images/watABurger.png";
+import ggLab from "../assets/images/gglab.png"
+import vbcc from "../assets/images/vbcc.png"
+import oneUs from "../assets/images/oneUS.png"
 
 const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
+      src: ggLab,
+      liveDemo: "https://gg-lab.vercel.app/",
+      sourceCode: "https://github.com/GOGA-23/GG_Lab",
+    },
+    {
+      id: 2,
+      src: vbcc,
+      liveDemo: "https://vbccinstruments.com",
+      sourceCode: "https://github.com/prithvi60/Vbcc",
+    },
+    {
+      id: 3,
+      src: oneUs,
+      liveDemo: "https://chat-app-82d23.web.app",
+      sourceCode: "https://oneus-travels.vercel.app",
+    },
+    {
+      id: 4,
       src: MusicApp,
       liveDemo: "https://goga-23.github.io/Music-App",
       sourceCode: "https://github.com/GOGA-23/Music-App",
     },
     {
-      id: 2,
-      src: TodoList,
-      liveDemo: "https://goga-23.github.io/TODO-List-",
-      sourceCode: "https://github.com/GOGA-23/TODO-List-",
-    },
-    {
-      id: 3,
-      src: WeatherApp,
-      liveDemo: "https://goga-23.github.io/Weather-App",
-      sourceCode: "https://github.com/GOGA-23/Weather-App",
-    },
-    {
-      id: 4,
-      src: Calculator,
-      liveDemo: "https://react-simple-calculator.onrender.com",
-      sourceCode: "https://github.com/GOGA-23/React-Simple-Calculator",
-    },
-    {
       id: 5,
-      src: BlogApp,
-      liveDemo: "https://react-blog-app-e1lk.onrender.com",
-      sourceCode: "https://github.com/GOGA-23/React-Blog-App",
-    },
-    {
-      id: 6,
-      src: MovieApp,
-      liveDemo: "https://goga-23.github.io/RTK-Movie-List/",
-      sourceCode: "https://github.com/GOGA-23/RTK-Movie-List",
-    },
-    {
-      id: 7,
-      src: NewsWebsite,
-      liveDemo: "https://news-website-xtcr.onrender.com",
-      sourceCode: "https://github.com/GOGA-23/NEWS-Website",
-    },
-    {
-      id: 8,
       src: NotesApp,
       liveDemo: "https://notes-app-xs9e.onrender.com",
       sourceCode: "https://github.com/GOGA-23/Notes-App",
     },
     {
-      id: 9,
+      id: 6,
       src: whatsAppClone,
       liveDemo: "https://chat-app-82d23.web.app",
       sourceCode: "https://github.com/GOGA-23/RealTime-chat-app",
     },
     {
-      id: 10,
-      src: socialApp,
-      liveDemo: "https://mern-social-app-v5vd.onrender.com",
-      sourceCode: "https://github.com/GOGA-23/Social-App",
-    },
-    {
-      id: 11,
+      id: 7,
       src: watABurger,
       liveDemo: "https://wat-a-burger.onrender.com",
       sourceCode: "https://github.com/GOGA-23/WAT-A-BURGER-Website-Clone.git",

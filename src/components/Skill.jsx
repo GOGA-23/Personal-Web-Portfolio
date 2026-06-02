@@ -7,6 +7,12 @@ import Express from "../assets/images/express-js-icon.png";
 import mongodb from "../assets/images/mongodb.png";
 import Github from "../assets/images/github.png";
 import tailwindcss from "../assets/images/tailwindcss.png";
+import Typescript from "../assets/images/Typescript.png";
+import neon from "../assets/images/neonDB.png"
+import prisma from "../assets/images/prisma.jpg"
+import AI from "../assets/images/AI.png"
+import shadcn from "../assets/images/shadcn.png"
+import vercel from "../assets/images/vercel.png"
 
 const Experience = () => {
   const skills = [
@@ -30,38 +36,74 @@ const Experience = () => {
     },
     {
       id: 4,
+      title: "Typescript",
+      src: Typescript,
+      styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(2, 46, 142, 1)" },
+    },
+    {
+      id: 5,
       title: "React",
       src: react,
       styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(2, 46, 142, 1)" },
     },
     {
-      id: 5,
+      id: 6,
       title: "Node js",
       src: Node,
       styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(75, 161, 62)" },
     },
     {
-      id: 6,
+      id: 7,
       title: "Express",
       src: Express,
       styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
     },
     {
-      id: 7,
+      id: 8,
       title: "MongoDB",
       src: mongodb,
       styleBox: { boxShadow: "0.1rem 0.2rem 0.5rem rgb(75, 161, 62)" },
     },
     {
-      id: 8,
+      id: 9,
+      title: "Neon",
+      src: neon,
+      styleBox: { boxShadow: "0.1rem 0.2rem 0.5rem rgb(75, 161, 62)" },
+    },
+    {
+      id: 10,
       title: "Github",
       src: Github,
       styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
     },
     {
-      id: 9,
+      id: 11,
       title: "Tailwind CSS",
       src: tailwindcss,
+      styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
+    },
+    {
+      id: 12,
+      title: "Shadcn",
+      src: shadcn,
+      styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
+    },
+    {
+      id: 13,
+      title: "AI SDK",
+      src: AI,
+      styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
+    },
+    {
+      id: 14,
+      title: "Prisma ORM",
+      src: prisma,
+      styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
+    },
+    {
+      id: 15,
+      title: "Vercel",
+      src: vercel,
       styleBox: { boxShadow: "0.1rem 0 0.5rem rgb(255, 255, 255)" },
     },
   ];

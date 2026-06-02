@@ -22,14 +22,14 @@ const Footer = () => {
       id: 4,
       style: { backgroundColor: "#25d366" },
       icon: <i className="bi bi-whatsapp"></i>,
-      text: "(+91-75-5020-2301)",
+      text: "(+91-94446-17464)",
     },
   ];
   return (
     <footer className=" container-fluid mt-auto py-3 bg-black d-flex d-sm-flex  flex-column-reverse justify-content-around align-items-center">
       <div className="p-3 text-center border-top border-primary">
         <span className="text-light fs-5">
-          &copy; 2023 Web Portfolio Made With
+          {` © ${new Date().getFullYear()} Web Portfolio Made With`}
           <i
             className="bi bi-balloon-heart-fill ms-2"
             style={{ color: "red" }}
