@@ -16,10 +16,10 @@ const Home = () => {
     <div className="container-fluid py-5 my-5" name="Home">
       <div className="container container-custom d-flex flex-wrap flex-md-row flex-column-reverse justify-content-around align-items-center bg-black text-light my-5 py-5">
         <div className="w-50  w100 py-5 px-3 flex">
-          <h1 className="display-5 fw-bold mb-4">
-            Gokul Gandhi
+          <h1 className="display-5 fw-bold mb-4" style={{ fontStyle: "uppercase" }}>
+            Gokul Gandhi V T
           </h1>
-          <h2 className="fs-3 mb-4">Front-end Web Developer</h2>
+          <h2 className="fs-3 mb-4">Full Stack Web Developer</h2>
           <p className="fs-4 w-100 mb-4 lead">
             I build fast, scalable web applications from the ground up — crafting clean interfaces on the frontend and robust, efficient systems on the backend. With a full-stack mindset, I bridge the gap between design and engineering to deliver seamless digital experiences.<br /><br />
             Whether it's architecting APIs, optimizing database queries, or fine-tuning UI interactions, I care deeply about code quality, performance, and the people who use what I build.
