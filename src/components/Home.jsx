@@ -1,4 +1,4 @@
-import profilePic from "../assets/images/profile-pic.png";
+import profilePic from "../assets/images/profile-pic.jpeg";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-scroll";
 import { ToastContainer, toast } from "react-toastify";
@@ -17,19 +17,17 @@ const Home = () => {
       <div className="container container-custom d-flex flex-wrap flex-md-row flex-column-reverse justify-content-around align-items-center bg-black text-light my-5 py-5">
         <div className="w-50  w100 py-5 px-3 flex">
           <h1 className="display-5 fw-bold mb-4">
-            I'M FULL STACK WEB DEVELOPER
+            Gokul Gandhi
           </h1>
+          <h2 className="fs-3 mb-4">Front-end Web Developer</h2>
           <p className="fs-4 w-100 mb-4 lead">
-            Quality-conscious and detail-oriented web developer with experience
-            in QA/QC and Draftsman. Passionate about creating user experiences
-            that engage, inform, and inspire. Always strive for the best results
-            and now looking to apply my interpersonal skills as a front-end web
-            developer.
+            I build fast, scalable web applications from the ground up — crafting clean interfaces on the frontend and robust, efficient systems on the backend. With a full-stack mindset, I bridge the gap between design and engineering to deliver seamless digital experiences.<br /><br />
+            Whether it's architecting APIs, optimizing database queries, or fine-tuning UI interactions, I care deeply about code quality, performance, and the people who use what I build.
           </p>
           <a
             className="btn btn-primary bt-lg p-2 fs-5 me-5 mb-3"
             href={
-              "https://drive.google.com/file/d/1Ut0FDIkVs_dk-jzbOIUoiqAQcXueqJ3t/view"
+              "https://drive.google.com/file/d/1UbNdkYBaBJ0JN_h00lM4W2bHnhESXySR/view?usp=sharing"
             }
             role="button"
             rel="noreferrer"

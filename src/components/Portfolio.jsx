@@ -103,6 +103,8 @@ const Portfolio = () => {
               />
               <hr className=" mx-4 text-primary" />
               <a
+                target="_blank"
+                rel="noreferrer"
                 className="btn btn-primary btn-sm mb-3 ms-4"
                 href={liveDemo}
                 role="button"
